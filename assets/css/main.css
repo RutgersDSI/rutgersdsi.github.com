@@ -2335,6 +2335,12 @@
 			.icon.major:before {
 				font-size: 2.5em;
 			}
+			
+			.icon.major.center {
+				margin: auto;
+				margin-left: auto;
+				margin-right: auto;
+			}
 
 			.icon.major.accent1 {
 				background: #666;
@@ -3140,7 +3146,7 @@
 				opacity: 0.75;
 			}
 
-		#footer .copyright {
+		#footer .slogan {
 			color: #999;
 			font-size: 0.9em;
 			line-height: 1em;
@@ -3149,11 +3155,11 @@
 			text-align: center;
 		}
 
-			#footer .copyright a {
+			#footer .slogan a {
 				color: inherit;
 			}
 
-			#footer .copyright li {
+			#footer .slogan li {
 				border-left: solid 1px #dddddd;
 				display: inline-block;
 				list-style: none;
@@ -3161,7 +3167,7 @@
 				padding-left: 1em;
 			}
 
-				#footer .copyright li:first-child {
+				#footer .slogan li:first-child {
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
@@ -3574,6 +3580,15 @@
 						float: none;
 						margin: 2em 0 0 0 !important;
 						padding: 2em 0 0 0 !important;
+						width: 100%;
+					}
+					
+					.box.features .features-row sectioncenter {
+						border: 0;
+						border-top: solid 1px #e5e5e5 !important;
+						float: none;
+						margin: auto;
+						padding: 10em 0 0 0 !important;
 						width: 100%;
 					}
 
