@@ -2617,7 +2617,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #666;
+		background-color: #0c2a62;
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff;
@@ -2636,14 +2636,14 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #737373;
+			background-color: #1a4898;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: #595959;
+			background-color: #001a4a;
 		}
 
 		input[type="submit"].icon,
@@ -2721,7 +2721,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #e89980;
+			background-color: #8d0e0e;
 			color: #ffffff !important;
 		}
 
@@ -2729,14 +2729,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #ecaa96;
+				background-color: #a22626;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #e4886a;
+				background-color: #700606;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
